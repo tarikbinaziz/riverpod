@@ -6,7 +6,7 @@ class PostService {
 
   final dio = Dio();
 
-  Future <List<PostModel>> getPost() async {
+  Future<List<PostModel>> getPost() async {
     List<PostModel> posts = [];
     final response = await dio.get(baseUrl);
     print("====Response $response");
