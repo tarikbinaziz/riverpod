@@ -7,7 +7,7 @@ class PostsPageFutureProviderScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final postsAsyncValue = ref.watch(postFutureProvider);
+    final postsAsyncValue = ref.watch(fetchPostProvider);
 
     return Scaffold(
       appBar: AppBar(title: const Text('Posts')),
