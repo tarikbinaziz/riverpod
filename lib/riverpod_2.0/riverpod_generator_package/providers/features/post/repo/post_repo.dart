@@ -1,7 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_application_1/riverpod_2.0/riverpod_generator_package/providers/future_provider/features/post/logic/dio_provider.dart';
+import 'package:flutter_application_1/riverpod_2.0/riverpod_generator_package/providers/features/post/logic/dio_provider.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-
 part 'post_repo.g.dart';
 
 abstract class PostRepo {

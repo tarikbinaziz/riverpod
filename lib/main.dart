@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/riverpod_2.0/riverpod_generator_package/providers/future_provider/features/post/views/post_screen.dart';
+import 'package:flutter_application_1/riverpod_2.0/riverpod_generator_package/providers/features/post/views/post_screen.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {
