@@ -6,19 +6,20 @@ part of 'store_int.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$storeIntHash() => r'9897c09cface5fe8375b10f732b155a017f01f33';
+String _$counterIntHash() => r'15b1c8f9bc2cf5622c3c87314731e8b169736f38';
 
-/// See also [storeInt].
-@ProviderFor(storeInt)
-final storeIntProvider = AutoDisposeProvider<int>.internal(
-  storeInt,
-  name: r'storeIntProvider',
+/// See also [CounterInt].
+@ProviderFor(CounterInt)
+final counterIntProvider =
+    AutoDisposeNotifierProvider<CounterInt, int>.internal(
+  CounterInt.new,
+  name: r'counterIntProvider',
   debugGetCreateSourceHash:
-      const bool.fromEnvironment('dart.vm.product') ? null : _$storeIntHash,
+      const bool.fromEnvironment('dart.vm.product') ? null : _$counterIntHash,
   dependencies: null,
   allTransitiveDependencies: null,
 );
 
-typedef StoreIntRef = AutoDisposeProviderRef<int>;
+typedef _$CounterInt = AutoDisposeNotifier<int>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member

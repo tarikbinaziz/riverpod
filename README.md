@@ -26,3 +26,12 @@ samples, guidance on mobile development, and a full API reference.
 2. add @riverpod anotation upside of this function
 3. add a part file
 4. update declaration function
+
+
+# Notifre provider
+
+  1. make class and extends with Notifire.
+  2. declare it state type
+  3. override build function , set here initial value
+  4. if you want to make provider without riverpod generator, do with NotifireProvider<classname,stateType>
+  - nb: no need ref here
