@@ -13,8 +13,6 @@ class StoreOnlyInt extends Notifier<int> {
 final storeOnlyIntProvider = NotifierProvider<StoreOnlyInt, int>(() => StoreOnlyInt());
 
 // By generator
-
-
 @riverpod
 class StoreDataInGenerator extends _$StoreDataInGenerator {
   @override
